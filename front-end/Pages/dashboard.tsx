@@ -29,20 +29,24 @@ const Dashboard: FunctionComponent = (props: any) => {
 
               <div title="Socials" className={theme.socials}>
                 <picture>
-                  <img src="/img/facebookLogo.svg" alt="/img/facebookLogo.svg" width="30" height="30" />
+                  <a href="https://www.facebook.com/kevinmarcos.aguimanera"><img src="/img/facebookLogo.svg" alt="/img/facebookLogo.svg" width="30" height="30" />
+               </a>
                 </picture>
 
                 <picture>
-                  <img src="/img/instagramLogo.svg" alt="/img/instagramLogo.svg" width="30" height="30" />
-                </picture>
+                  <a href="https://www.instagram.com/kevin_manera96/"><img src="/img/instagramLogo.svg" alt="/img/instagramLogo.svg" width="30" height="30" />
+                </a>
+                  </picture>
 
                 <picture>
-                  <img src="/img/linkedinLogo.svg" alt="/img/linkedinLogo.svg" width="30" height="30" />
-                </picture>
+                  <a href="https://www.linkedin.com/in/kevin-marcos-agui-manera-392aa9170/"><img src="/img/linkedinLogo.svg" alt="/img/linkedinLogo.svg" width="30" height="30" />
+                </a>
+                  </picture>
 
                 <picture>
-                  <img src="/img/git.jpg" alt="/img/git.jpg" width="30" height="30" />
+                  <a href="https://github.com/KevinMarcos26"><img src="/img/git.jpg" alt="/img/git.jpg" width="30" height="30" /></a>
                 </picture>
+             
               </div>
             </div>
           </div>
